@@ -1,20 +1,6 @@
 // code from https://github.com/tienphaw/figma-squircle
 
-export interface CornerParams {
-  cornerRadius: number;
-  cornerSmoothing: number;
-  width: number;
-  height: number;
-}
-
-export interface CornerPathParams {
-  a: number;
-  b: number;
-  c: number;
-  d: number;
-  p: number;
-  circularSectionLength: number;
-}
+import { CornerParams, CornerPathParams } from 'src/types';
 
 export const getPathParamsForCorner = memoize(
   ({

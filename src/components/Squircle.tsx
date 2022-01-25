@@ -1,23 +1,8 @@
-import {
-  Canvas,
-  ColorProp,
-  IPath,
-  Path,
-  usePath,
-} from '@shopify/react-native-skia';
-import { DrawingContext } from '@shopify/react-native-skia/src/renderer/DrawingContext';
+import { Canvas, IPath, Path, usePath } from '@shopify/react-native-skia';
 import React, { useMemo, useState } from 'react';
 import { StyleSheet, View, ViewProps } from 'react-native';
-import { getPathParamsForCorner } from '../utils';
-
-export type SquircleColorProp =
-  | ColorProp
-  | ((ctx: DrawingContext) => ColorProp | undefined);
-
-export type SquircleProps = ViewProps & {
-  smoothing?: number;
-  color?: SquircleColorProp;
-};
+import { SquircleColorProp, SquircleProps } from 'src/types';
+import { getPathParamsForCorner } from 'src/utils';
 
 const Squircle: React.FC<SquircleProps> = ({
   smoothing = 1,
