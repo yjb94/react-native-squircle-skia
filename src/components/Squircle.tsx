@@ -1,7 +1,7 @@
 import { Canvas, IPath, Path, usePath } from '@shopify/react-native-skia';
 import React, { useMemo, useState } from 'react';
 import { StyleSheet, View, ViewProps } from 'react-native';
-import { SquircleColorProp, SquircleProps } from '../types';
+import { SquircleColorProp, SquircleProps } from '../types/types';
 import { getPathParamsForCorner } from '../utils';
 
 const Squircle: React.FC<SquircleProps> = ({
