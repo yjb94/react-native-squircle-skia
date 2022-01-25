@@ -1,1 +1,3 @@
-export * as Squircle from './components/Squircle';
+import Squircle from './components/Squircle';
+
+export default Squircle;
