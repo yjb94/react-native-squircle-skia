@@ -12,6 +12,8 @@ yarn
 
 > While it's possible to use [`npm`](https://github.com/npm/cli), the tooling is built around [`yarn`](https://classic.yarnpkg.com/), so you'll have an easier time if you use `yarn` for development.
 
+While developing, you can run the [example app](/Example/) to test your changes. Any changes you make in your library's JavaScript code will be reflected in the example app without a rebuild. If you change any native code, then you'll need to rebuild the example app.
+
 Make sure your code passes TypeScript and ESLint. Run the following to verify:
 
 ```sh
@@ -66,7 +68,7 @@ yarn release
 
 The `package.json` file contains various scripts for common tasks:
 
-- `yarn bootstrap`: setup project by installing all dependencies.
+- `yarn bootstrap`: setup project by installing all dependencies and pods.
 - `yarn typescript`: type-check files with TypeScript.
 - `yarn lint`: lint files with ESLint.
 - `yarn test`: run unit tests with Jest.
