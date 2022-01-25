@@ -34,7 +34,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "skia",
+    "@shopify/react-native-skia",
+    "squircle",
+    "smooth-corner"
   ],
   "repository": "https://github.com/yjb94/react-native-squircle-skia",
   "author": "yjb94 <3.ria.eboda@gmail.com> (https://github.com/yjb94)",
