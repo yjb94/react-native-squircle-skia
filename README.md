@@ -1,27 +1,55 @@
 # react-native-squircle-skia
 
-Skia based squircle for React Native. draws with Figma squirce style
+## Disclaimer
+
+> "@shopify/react-native-skia is alpha release. Use with caution.
+
+> This library dependes on [figma's blog article](https://www.figma.com/blog/desperately-seeking-squircles/).
+
+## What is this?
+
+This library creates a smooth cornered rectangle view via skia path based on [Figma's corner smoothing](https://help.figma.com/hc/en-us/articles/360050986854-Adjust-corner-radius-and-smoothing).
 
 ## Installation
 
-```sh
-npm install react-native-squircle-skia
-```
+npm jobs in progress
 
 ## Usage
 
-```js
-import { multiply } from "react-native-squircle-skia";
+npm jobs in progress
 
-// ...
+## Props
 
-const result = await multiply(3, 7);
-```
+Squircle inherits [View Props](https://facebook.github.io/react-native/docs/view#props) in order to use all the styles presetted in your own project.
 
-## Contributing
+- This library uses `borderRadius`(including all the others like borderTopLeftRadius) to set corner radius.
+- This library uses `backgroundColor` to set the path fill
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+### squircleParams
 
-## License
+#### cornerSmoothing
 
-MIT
+> `number` | defaults to 1
+
+Goes from 0 to 1, controls how smooth the corners should be.
+
+#### color
+
+> `SquircleColorProp`
+
+Is used to set backgroundColor(path fill color). you can use a skia ColorProp. `backgroundColor` in style prop will be ignored if you set color.
+
+## TODO
+
+- [ ] `borderWidth | borderColor | borderStyle` support for Squircle.
+
+## Thanks to
+
+- [Tien Pham
+  ](https://github.com/tienphaw) for creating [figma-squircle](https://github.com/tienphaw/figma-squircle), helped me a lot with main logics
+
+- [@shopify/react-native-skia](https://github.com/shopify/react-native-skia) for creating skia for react native.
+
+## Motivated by
+
+- [figma-squircle](https://github.com/tienphaw/figma-squircle) - This library helped me with drawing squircle path.
