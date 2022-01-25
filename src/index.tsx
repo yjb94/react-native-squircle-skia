@@ -1,2 +1,2 @@
-export * as Squircle from 'src/components/Squircle';
-export * from 'src/types';
+export * as Squircle from './components/Squircle';
+export * from './types';

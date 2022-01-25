@@ -1,6 +1,6 @@
 // code from https://github.com/tienphaw/figma-squircle
 
-import { CornerParams, CornerPathParams } from 'src/types';
+import { CornerParams, CornerPathParams } from '../types';
 
 export const getPathParamsForCorner = memoize(
   ({
