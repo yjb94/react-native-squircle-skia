@@ -6,7 +6,6 @@
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "declaration": true,
     "esModuleInterop": true,
     "importsNotUsedAsValues": "preserve",
     "jsx": "react",
