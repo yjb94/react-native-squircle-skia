@@ -27,7 +27,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn link && cd Example && yarn link react-native-squircle-skia",
+    "example": "yarn --cwd Example",
     "pods": "cd Example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods"
   },
