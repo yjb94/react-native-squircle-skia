@@ -14,7 +14,6 @@
     "ios",
     "cpp",
     "react-native-squircle-skia.podspec",
-    "!lib/typescript/example",
     "!android/build",
     "!ios/build",
     "!**/__tests__",
@@ -27,9 +26,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn"
   },
   "keywords": [
     "react-native",
@@ -82,7 +79,6 @@
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
   },
