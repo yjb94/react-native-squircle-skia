@@ -1,5 +1,7 @@
 # react-native-squircle-skia
 
+![thumbnail](https://user-images.githubusercontent.com/6838787/151216382-2dcdb581-f5d8-4320-9684-ee96b0b54dc4.png)
+
 ## Disclaimer
 
 > @shopify/react-native-skia is alpha release. Use with caution.
@@ -27,6 +29,10 @@ or
 ```
 
 ## Usage
+<div>
+  <img src="https://user-images.githubusercontent.com/6838787/151213872-e5ba4e04-2a69-47af-8cf3-c33c83ecd105.gif" width="300"/>
+  <img src="https://user-images.githubusercontent.com/6838787/151213872-e5ba4e04-2a69-47af-8cf3-c33c83ecd105.gif" width="300"/>
+</div>
 
 ### basic usage
 
