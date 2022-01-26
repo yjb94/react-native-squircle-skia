@@ -30,8 +30,8 @@ or
 
 ## Usage
 <div>
-  <img src="https://user-images.githubusercontent.com/6838787/151213872-e5ba4e04-2a69-47af-8cf3-c33c83ecd105.gif" width="300"/>
-  <img src="https://user-images.githubusercontent.com/6838787/151213872-e5ba4e04-2a69-47af-8cf3-c33c83ecd105.gif" width="300"/>
+  <img src="https://user-images.githubusercontent.com/6838787/151213872-e5ba4e04-2a69-47af-8cf3-c33c83ecd105.gif" width="300" />
+  <img src="https://user-images.githubusercontent.com/6838787/151228256-0493d857-fd42-4dd2-ba7d-8ad5265b965a.gif" width="300" />
 </div>
 
 ### basic usage
