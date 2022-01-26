@@ -60,7 +60,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 16,
+    margin: 16,
   },
   compareContainer: {
     flexDirection: 'row',
