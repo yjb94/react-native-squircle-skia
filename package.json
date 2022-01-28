@@ -51,7 +51,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@shopify/react-native-skia": "https://github.com/Shopify/react-native-skia/releases/download/v0.1.75-alpha/shopify-react-native-skia-0.1.75.tgz"
+    "@shopify/react-native-skia": "https://github.com/Shopify/react-native-skia/releases/download/v0.1.92-alpha/shopify-react-native-skia-0.1.92.tgz"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
