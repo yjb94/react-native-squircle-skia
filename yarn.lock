@@ -1814,9 +1814,9 @@
     conventional-recommended-bump "^6.1.0"
     prepend-file "^2.0.0"
 
-"@shopify/react-native-skia@https://github.com/Shopify/react-native-skia/releases/download/v0.1.92-alpha/shopify-react-native-skia-0.1.92.tgz":
-  version "0.1.92"
-  resolved "https://github.com/Shopify/react-native-skia/releases/download/v0.1.92-alpha/shopify-react-native-skia-0.1.92.tgz#b0a60e25aef72747957e0820dd5ad2f67d459d34"
+"@shopify/react-native-skia@https://github.com/Shopify/react-native-skia/releases/download/v0.1.103-alpha/shopify-react-native-skia-0.1.103.tgz":
+  version "0.1.103"
+  resolved "https://github.com/Shopify/react-native-skia/releases/download/v0.1.103-alpha/shopify-react-native-skia-0.1.103.tgz#02c1c508f496eb6e1a56c6a2ef3c4e3b6e09a336"
   dependencies:
     react-reconciler "^0.26.2"
 
