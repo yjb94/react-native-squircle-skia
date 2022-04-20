@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@react-native-community/slider": "^4.2.0",
-    "@shopify/react-native-skia": "https://github.com/Shopify/react-native-skia/releases/download/v0.1.92-alpha/shopify-react-native-skia-0.1.92.tgz",
+    "@shopify/react-native-skia": "^0.1.118",
     "react": "17.0.2",
     "react-native": "0.66.4"
   },

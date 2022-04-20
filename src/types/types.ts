@@ -1,14 +1,9 @@
-import { ColorProp } from '@shopify/react-native-skia';
-import { DrawingContext } from '@shopify/react-native-skia/src/renderer/DrawingContext';
+import { Color } from '@shopify/react-native-skia';
 import { ViewProps } from 'react-native';
-
-export declare type SquircleColorProp =
-  | ColorProp
-  | ((ctx: DrawingContext) => ColorProp | undefined);
 
 export declare type SquircleProps = ViewProps & {
   smoothing?: number;
-  color?: SquircleColorProp;
+  color?: Color;
 };
 
 export declare interface CornerParams {

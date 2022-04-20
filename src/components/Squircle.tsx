@@ -1,7 +1,13 @@
-import { Canvas, IPath, Path, usePath } from '@shopify/react-native-skia';
+import {
+  Canvas,
+  Color,
+  Path,
+  SkPath,
+  usePath,
+} from '@shopify/react-native-skia';
 import React, { useMemo, useState } from 'react';
 import { StyleSheet, View, ViewProps } from 'react-native';
-import { SquircleColorProp, SquircleProps } from '../types/types';
+import { SquircleProps } from '../types/types';
 import { getPathParamsForCorner } from '../utils';
 
 const Squircle: React.FC<SquircleProps> = ({
@@ -49,13 +55,11 @@ const Squircle: React.FC<SquircleProps> = ({
   const [width, setWidth] = useState<number>(0);
   const [height, setHeight] = useState<number>(0);
 
-  const pathColor = useMemo<SquircleColorProp | undefined>(() => {
-    return (color || backgroundColor || 'transparent') as
-      | SquircleColorProp
-      | undefined;
+  const pathColor = useMemo<Color | undefined>(() => {
+    return (color || backgroundColor || 'transparent') as Color | undefined;
   }, [backgroundColor, color]);
 
-  const drawTopRightCornerPath = (path: IPath) => {
+  const drawTopRightCornerPath = (path: SkPath) => {
     if (borderTopRightRadius) {
       const { a, b, c, d, p, circularSectionLength } = getPathParamsForCorner({
         width,
@@ -96,7 +100,7 @@ const Squircle: React.FC<SquircleProps> = ({
     }
   };
 
-  const drawBottomRightCornerPath = (path: IPath) => {
+  const drawBottomRightCornerPath = (path: SkPath) => {
     if (borderBottomRightRadius) {
       const { a, b, c, d, p, circularSectionLength } = getPathParamsForCorner({
         width,
@@ -136,7 +140,7 @@ const Squircle: React.FC<SquircleProps> = ({
     }
   };
 
-  const drawBottomLeftCornerPath = (path: IPath) => {
+  const drawBottomLeftCornerPath = (path: SkPath) => {
     if (borderBottomLeftRadius) {
       const { a, b, c, d, p, circularSectionLength } = getPathParamsForCorner({
         width,
@@ -169,7 +173,7 @@ const Squircle: React.FC<SquircleProps> = ({
     }
   };
 
-  const drawTopLeftCornerPath = (path: IPath) => {
+  const drawTopLeftCornerPath = (path: SkPath) => {
     if (borderTopLeftRadius) {
       const { a, b, c, d, p, circularSectionLength } = getPathParamsForCorner({
         width,
